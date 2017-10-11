@@ -1,6 +1,6 @@
 {
   "name": "twig-prune",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Twig Prune scans a given directory, identifies unused Twig templates, and exposes the option to remove them.",
   "main": "index.js",
   "scripts": {
