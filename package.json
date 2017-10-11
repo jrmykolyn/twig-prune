@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jrmykolyn/twig-prune/issues"
   },
-  "homepage": "https://github.com/jrmykolyn/twig-prune#readme"
+  "homepage": "https://github.com/jrmykolyn/twig-prune#readme",
+  "dependencies": {
+    "recursive-readdir": "^2.2.1"
+  }
 }
