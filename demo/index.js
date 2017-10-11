@@ -31,15 +31,12 @@ ncp( './bak/public_html/', './public_html/', ( err ) => {
 	twigPrune( {
 		entryDir: `${__dirname}/public_html`,
 		viewsDir: `${__dirname}/public_html/views`,
+		force: true,
 	} )
 	.then( ( data ) => {
-		console.log( data );  /// TEMP
-
 		del( `${__dirname}/public_html` );
 	} )
 	.catch( ( err ) => {
-		console.log( err ); /// TEMP
-
-		del( `${__dirname}/temp/public_html` );
+		del( `${__dirname}/public_html` );
 	} );
 } );
