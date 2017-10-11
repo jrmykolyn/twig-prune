@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/jrmykolyn/twig-prune#readme",
   "dependencies": {
+    "del": "^3.0.0",
     "recursive-readdir": "^2.2.1"
   },
   "devDependencies": {
-    "del": "^3.0.0",
     "ncp": "^2.0.0"
   }
 }
